@@ -38,7 +38,7 @@ int main()
      
         auto it=st.lower_bound(r);
         long long num1=*it;
-        //cout<<"num  "<<num1<<endl;
+ 
         if(it==++st.begin())
         {
             sm+=((r-l+1)*(*it));
